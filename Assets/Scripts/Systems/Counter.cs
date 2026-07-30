@@ -21,11 +21,20 @@ public class Counter : MonoBehaviour
     {
         // Any collider entering this trigger counts as a "catch" —
         // the Basket's collider is the only trigger in the scene, so no tag check needed here.
-        Fruit fruit = other.GetComponent<Fruit>();
-        int value = fruit != null ? fruit.PointValue : 1;
+
+        //Replaced with below code: Fruit fruit = other.GetComponent<Fruit>();
+        Collectable collectable = other.GetComponent<Collectable>();
+        //Replaced with below code: int value = fruit != null ? fruit.PointValue : 1;
+        int value = collectable != null ? collectable.PointValue : 1;
 
         Score += value;
+        //Replaced with below code: counterText.text = Score.ToString();
+        if (collectable != null)
+        {
+            collectable.Collect();
+        }
         counterText.text = Score.ToString();
+
         OnScoreChanged?.Invoke(Score);
     }
 
