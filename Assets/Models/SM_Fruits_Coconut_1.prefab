@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2057176237917537048
+--- !u!1 &3751482144859723503
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8654847845050004460}
-  - component: {fileID: 1737540844446231418}
-  - component: {fileID: 8038840926050864105}
-  - component: {fileID: 2449621156966016151}
-  - component: {fileID: 2339485756488974072}
-  - component: {fileID: 8124453451606808127}
+  - component: {fileID: 1915738036787327766}
+  - component: {fileID: 6263428508089296846}
+  - component: {fileID: 1250527485522735117}
+  - component: {fileID: 2296941018111174412}
+  - component: {fileID: 2294742684269357846}
   m_Layer: 0
-  m_Name: SM_Fruits_Pineapple_1
+  m_Name: SM_Fruits_Coconut_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8654847845050004460
+--- !u!4 &1915738036787327766
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057176237917537048}
+  m_GameObject: {fileID: 3751482144859723503}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.42261827, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 50, z: 0}
---- !u!33 &1737540844446231418
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6263428508089296846
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057176237917537048}
-  m_Mesh: {fileID: -7146343043989866594, guid: 6edab69fc19036b41b158996c76a46ba, type: 3}
---- !u!23 &8038840926050864105
+  m_GameObject: {fileID: 3751482144859723503}
+  m_Mesh: {fileID: 769236001983492786, guid: 5202e6d29fd21474fa54e93c81acebb0, type: 3}
+--- !u!23 &1250527485522735117
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057176237917537048}
+  m_GameObject: {fileID: 3751482144859723503}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -93,13 +92,13 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2449621156966016151
+--- !u!64 &2296941018111174412
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057176237917537048}
+  m_GameObject: {fileID: 3751482144859723503}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -114,14 +113,14 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: -7146343043989866594, guid: 6edab69fc19036b41b158996c76a46ba, type: 3}
---- !u!54 &2339485756488974072
+  m_Mesh: {fileID: 769236001983492786, guid: 5202e6d29fd21474fa54e93c81acebb0, type: 3}
+--- !u!54 &2294742684269357846
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057176237917537048}
+  m_GameObject: {fileID: 3751482144859723503}
   serializedVersion: 5
   m_Mass: 1
   m_LinearDamping: 0
@@ -142,17 +141,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &8124453451606808127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057176237917537048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c992e47996993de489ec2581217c97dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Fruit
-  pointValue: 8
-  destroyBelowY: -10

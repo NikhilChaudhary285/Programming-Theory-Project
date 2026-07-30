@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5596439573730142597}
   - component: {fileID: 4449929880288447849}
   - component: {fileID: 441387117140736607}
-  - component: {fileID: -7514204737604353116}
+  - component: {fileID: -3742830660608467356}
   m_Layer: 0
   m_Name: SM_Fruits_Banana_Y1
   m_TagString: Untagged
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-7514204737604353116
+--- !u!114 &-3742830660608467356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,8 +151,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5331200591087136570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c992e47996993de489ec2581217c97dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a5403f6bf404ec4eb960f10e6141416, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Fruit
-  pointValue: 8
+  m_EditorClassIdentifier: Assembly-CSharp::Banana
+  pointValue: 2
   destroyBelowY: -10

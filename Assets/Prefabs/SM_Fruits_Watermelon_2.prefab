@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8682314308812818827}
   - component: {fileID: 8536382201513535093}
   - component: {fileID: 4860519673447623282}
-  - component: {fileID: -7759055105670185266}
+  - component: {fileID: -8639959938828809957}
   m_Layer: 0
   m_Name: SM_Fruits_Watermelon_2
   m_TagString: Untagged
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-7759055105670185266
+--- !u!114 &-8639959938828809957
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,8 +151,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3010882321961600472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c992e47996993de489ec2581217c97dc, type: 3}
+  m_Script: {fileID: 11500000, guid: feaa9dceb874d6e419ab71572c800d7b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Fruit
-  pointValue: 4
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon
+  pointValue: 7
   destroyBelowY: -10
