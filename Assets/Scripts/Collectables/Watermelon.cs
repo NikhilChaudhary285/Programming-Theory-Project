@@ -8,4 +8,11 @@ public class Watermelon : Collectable
         PointValue = 7;
     }
 
+    // POLYMORPHISM
+    public override void Collect()
+    {
+        Debug.Log("Watermelon Collected");
+
+        base.Collect();
+    }
 }

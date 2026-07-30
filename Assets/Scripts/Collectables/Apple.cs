@@ -8,5 +8,11 @@ public class Apple : Collectable
         PointValue = 1;
     }
 
+    // POLYMORPHISM
+    public override void Collect()
+    {
+        Debug.Log("Apple Collected");
 
+        base.Collect();
+    }
 }

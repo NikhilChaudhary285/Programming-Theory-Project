@@ -8,5 +8,11 @@ public class Orange : Collectable
         PointValue = 5;
     }
 
+    // POLYMORPHISM
+    public override void Collect()
+    {
+        Debug.Log("Orange Collected");
 
+        base.Collect();
+    }
 }
