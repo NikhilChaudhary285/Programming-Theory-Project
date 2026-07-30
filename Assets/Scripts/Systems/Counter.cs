@@ -25,12 +25,14 @@ public class Counter : MonoBehaviour
         //Replaced with below code: Fruit fruit = other.GetComponent<Fruit>();
         Collectable collectable = other.GetComponent<Collectable>();
         //Replaced with below code: int value = fruit != null ? fruit.PointValue : 1;
-        int value = collectable != null ? collectable.PointValue : 1;
+        int value = collectable != null ? collectable.PointValue : 1; // ENCAPSULATION
 
         Score += value;
         //Replaced with below code: counterText.text = Score.ToString();
         if (collectable != null)
         {
+            // ABSTRACTION
+            // POLYMORPHISM
             collectable.Collect();
         }
         counterText.text = Score.ToString();
